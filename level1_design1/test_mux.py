@@ -162,4 +162,144 @@ async def test_mux_15(dut):
     dut.sel.value = 15
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp15.value, f"The Result of Mux is not correct: {dut.inp15.value}!={dut.out.value}"
-    
+
+@cocotb.test()
+async def test_mux_16(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp16.value = random.randint(0,3)
+    dut.sel.value = 16
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp16.value, f"The Result of Mux is not correct: {dut.inp16.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_17(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp17.value = random.randint(0,3)
+    dut.sel.value = 17
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp17.value, f"The Result of Mux is not correct: {dut.inp17.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_18(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp18.value = random.randint(0,3)
+    dut.sel.value = 18
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp18.value, f"The Result of Mux is not correct: {dut.inp18.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_19(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp19.value = random.randint(0,3)
+    dut.sel.value = 19
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp19.value, f"The Result of Mux is not correct: {dut.inp19.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_20(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp20.value = random.randint(0,3)
+    dut.sel.value = 20
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp20.value, f"The Result of Mux is not correct: {dut.inp20.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_21(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp21.value = random.randint(0,3)
+    dut.sel.value = 21
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp18.value, f"The Result of Mux is not correct: {dut.inp18.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_22(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp22.value = random.randint(0,3)
+    dut.sel.value = 22
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp22.value, f"The Result of Mux is not correct: {dut.inp22.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_23(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp23.value = random.randint(0,3)
+    dut.sel.value = 23
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp23.value, f"The Result of Mux is not correct: {dut.inp23.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_24(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp24.value = random.randint(0,3)
+    dut.sel.value = 24
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp24.value, f"The Result of Mux is not correct: {dut.inp24.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_25(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp25.value = random.randint(0,3)
+    dut.sel.value = 25
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp25.value, f"The Result of Mux is not correct: {dut.inp25.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_26(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp26.value = random.randint(0,3)
+    dut.sel.value = 26
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp26.value, f"The Result of Mux is not correct: {dut.inp26.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_27(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp27.value = random.randint(0,3)
+    dut.sel.value = 27
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp27.value, f"The Result of Mux is not correct: {dut.inp27.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_28(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp28.value = random.randint(0,3)
+    dut.sel.value = 28
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp28.value, f"The Result of Mux is not correct: {dut.inp28.value}!={dut.out.value}"
+
+@cocotb.test()
+async def test_mux_29(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp29.value = random.randint(0,3)
+    dut.sel.value = 29
+    await Timer(2,units='ns')
+    assert dut.out.value==dut.inp29.value, f"The Result of Mux is not correct: {dut.inp29.value}!={dut.out.value}"
+

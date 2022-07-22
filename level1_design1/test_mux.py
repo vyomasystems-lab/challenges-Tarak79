@@ -49,7 +49,7 @@ async def test_mux_4(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.inp0.value = random.randint(0,3)
-    dut.sel.value = 0
+    dut.sel.value = 4
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp4.value, f"The Result of Mux is not correct: {dut.inp4.value}!={dut.out.value}"
 
@@ -59,7 +59,7 @@ async def test_mux_5(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.inp0.value = random.randint(0,3)
-    dut.sel.value = 0
+    dut.sel.value = 5
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp5.value, f"The Result of Mux is not correct: {dut.inp5.value}!={dut.out.value}"
 
@@ -69,7 +69,7 @@ async def test_mux_6(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.inp6.value = random.randint(0,3)
-    dut.sel.value = 0
+    dut.sel.value = 6
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp6.value, f"The Result of Mux is not correct: {dut.inp6.value}!={dut.out.value}"
 
@@ -79,7 +79,7 @@ async def test_mux_7(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.inp7.value = random.randint(0,3)
-    dut.sel.value = 0
+    dut.sel.value = 7
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp7.value, f"The Result of Mux is not correct: {dut.inp7.value}!={dut.out.value}"
 
@@ -89,7 +89,7 @@ async def test_mux_8(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.inp8.value = random.randint(0,3)
-    dut.sel.value = 0
+    dut.sel.value = 8
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp8.value, f"The Result of Mux is not correct: {dut.inp8.value}!={dut.out.value}"
 
@@ -99,6 +99,6 @@ async def test_mux_9(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.inp0.value = random.randint(0,3)
-    dut.sel.value = 0
+    dut.sel.value = 9
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp9.value, f"The Result of Mux is not correct: {dut.inp9.value}!={dut.out.value}"

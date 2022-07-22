@@ -1,5 +1,5 @@
 # See LICENSE.vyoma for details
-
+import random
 import cocotb
 from cocotb.triggers import Timer
 

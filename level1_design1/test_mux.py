@@ -310,5 +310,5 @@ async def test_mux_30(dut):
     cocotb.log.info('##### CTB: Develop your test here ########')
     dut.sel.value != random.randint(0,29)
     await Timer(2,units='ns')
-    assert dut.out.value==0, f"The Result of Mux is not correct: {dut.inp18.value}!={0}"
+    assert dut.out.value==0, f"The Result of Mux is 0"
 

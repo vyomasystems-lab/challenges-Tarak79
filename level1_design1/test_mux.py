@@ -221,7 +221,7 @@ async def test_mux_21(dut):
     dut.inp21.value = random.randint(0,3)
     dut.sel.value = 21
     await Timer(2,units='ns')
-    assert dut.out.value==dut.inp18.value, f"The Result of Mux is not correct: {dut.inp18.value}!={dut.out.value}"
+    assert dut.out.value==dut.inp21.value, f"The Result of Mux is not correct: {dut.inp18.value}!={dut.out.value}"
 
 @cocotb.test()
 async def test_mux_22(dut):

@@ -13,7 +13,7 @@ async def test_mux_0(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp0.value, f"The Result of Mux is not correct: {dut.inp0.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_1(dut):
     """Test for mux2"""
 
@@ -23,7 +23,7 @@ async def test_mux_1(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp1.value, f"The Result of Mux is not correct: {dut.inp1.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_2(dut):
     """Test for mux2"""
 
@@ -33,7 +33,7 @@ async def test_mux_2(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp2.value, f"The Result of Mux is not correct: {dut.inp2.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_3(dut):
     """Test for mux2"""
 
@@ -43,7 +43,7 @@ async def test_mux_3(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp3.value, f"The Result of Mux is not correct: {dut.inp3.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_4(dut):
     """Test for mux2"""
 
@@ -53,7 +53,7 @@ async def test_mux_4(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp4.value, f"The Result of Mux is not correct: {dut.inp4.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_5(dut):
     """Test for mux2"""
 
@@ -63,7 +63,7 @@ async def test_mux_5(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp5.value, f"The Result of Mux is not correct: {dut.inp5.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_6(dut):
     """Test for mux2"""
 
@@ -73,7 +73,7 @@ async def test_mux_6(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp6.value, f"The Result of Mux is not correct: {dut.inp6.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_7(dut):
     """Test for mux2"""
 
@@ -83,7 +83,7 @@ async def test_mux_7(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp7.value, f"The Result of Mux is not correct: {dut.inp7.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_8(dut):
     """Test for mux2"""
 
@@ -93,7 +93,7 @@ async def test_mux_8(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp8.value, f"The Result of Mux is not correct: {dut.inp8.value}!={dut.out.value}"
 
-cocotb.test()
+@cocotb.test()
 async def test_mux_9(dut):
     """Test for mux2"""
 

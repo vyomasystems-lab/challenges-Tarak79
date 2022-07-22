@@ -303,3 +303,13 @@ async def test_mux_29(dut):
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp29.value, f"The Result of Mux is not correct: {dut.inp29.value}!={dut.out.value}"
 
+@cocotb.test()
+async def test_mux_30(dut):
+    """Test for mux2"""
+
+    cocotb.log.info('##### CTB: Develop your test here ########')
+    dut.inp30.value = random.randint(0,3)
+    dut.sel.value != random.randint(0,29)
+    await Timer(2,units='ns')
+    assert dut.out.value==0, f"The Result of Mux is not correct: {dut.inp18.value}!={0}"
+

@@ -308,7 +308,7 @@ async def test_mux_30(dut):
     """Test for mux2"""
 
     cocotb.log.info('##### CTB: Develop your test here ########')
-    dut.sel.value not in (0,29):
+    dut.sel.value != value in [0,29]
     await Timer(2,units='ns')
     assert dut.out.value==0
 

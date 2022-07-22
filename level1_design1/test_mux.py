@@ -138,7 +138,7 @@ async def test_mux_13(dut):
     """Test for mux2"""
 
     cocotb.log.info('##### CTB: Develop your test here ########')
-    dut.inp13.value = 1
+    dut.inp13.value = 0
     dut.sel.value = 13
     await Timer(2,units='ns')
     assert dut.out.value==dut.inp13.value, f"The Result of Mux is not correct: {dut.inp13.value}!={dut.out.value}"
